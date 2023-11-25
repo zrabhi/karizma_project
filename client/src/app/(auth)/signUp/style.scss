@@ -1,0 +1,193 @@
+@import "@/../../../global.scss";
+.Login-container {
+
+    width:auto;
+
+.header-box {
+        margin-left: 8rem;
+        margin-top: 2.5rem;
+        width:150px;
+    }
+}
+
+
+h1{
+    font-size:xxx-large;
+    color:$main-button-color;
+    width: fit-content;
+    font-weight: 900;
+}
+p{
+    font-size:xxx-small;
+    color:$main-text-color;
+    width: fit-content;
+    font-weight: 500;
+}
+.Form-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .wb-image
+    {
+        margin-top:5rem;
+        margin-left:22rem;
+        width:auto;
+    }
+    .Forms{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:400px;
+        margin-top: 5rem;;
+        gap:6px;
+        margin-left: 15rem;
+    }
+    .email, .password, .Name
+            {
+                display: flex;
+                flex-direction: column;
+                gap:3px;
+                margin-top: 1rem;
+                input{
+                    margin:3px;
+                    padding: .9rem;
+                    line-height: 1rem;;
+                    border: 2px solid $main-border-input-color;
+                    border-radius: 10px;
+                    width: 400px;
+                    height: 42px;
+                }
+                }
+                .label{
+                    color:#000;
+                    font-size: 10px;
+                    font-style: normal;
+                    line-height: normal;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+
+
+// .Form-container
+// {
+//     display: flex;
+//     width:40%;
+//     flex-direction: row;
+//     margin-left:20rem;
+
+//     p
+//     {
+//         margin-left:8rem;
+//         margin-top: 7rem;
+//         font-weight: 800;
+//     }
+//     .Forms
+//     {
+//         display: flex;
+//         flex-direction: column;
+//         margin-top: 1rem;
+//         gap:20px;
+//         margin-left: 0;
+//         .email, .password, .Name
+//         {
+//             display: flex;
+//             flex-direction: column;
+//             gap:3px;
+//             input{
+//                 margin:3px;
+//                 padding: .9rem;
+//                 line-height: 1rem;;
+//                 border: 2px solid $main-border-input-color;
+//                 border-radius: 10px;
+//                 width: 400px;
+//                 height: 42px;
+//             }
+//             }
+//             .label{
+//                 color:#000;
+//                 font-size: 10px;
+//                 font-style: normal;
+//                 font-weight: 400;
+//                 line-height: normal;
+//                 font-size: 15px;
+//                 font-weight: 700;
+//             }
+//         }
+//     }
+
+// .Google-login{
+//     margin-top: 1rem;
+//     margin-left: 1rem;
+//     width: auto;
+//     height: 2rem;
+//     display: flex;
+//     gap: 1rem;
+//     flex-direction: row;
+
+//     .First-line {
+//         margin-top: 0.8rem;
+//         width: 10rem;
+//         height: 2px;
+//         background-color: #000;
+//     }
+h2{
+    font-weight: bold;
+    padding-top:.9rem;
+}
+//     h1{
+//         padding-bottom: 1rem;
+//         font-weight: 600;
+//         font-size:15px;
+//     }
+//     .Second-line {
+//         margin-top: 0.8rem;
+//         width: 10rem;
+//         height: 2px;
+//         background-color: #000;
+//         border-radius: 5px;
+//     }
+// }
+// .Submit{
+//     margin-left: 8rem;
+// }
+.Submit{
+    padding-top: 1rem;;
+}
+button
+{
+    height: 54px;
+    width: 140px;
+    font-size :16px;
+    font-weight: 600;
+    color:#FFFEFE;
+    background-color: $main-button-color;
+    border-radius: 25px;
+}
+h3{
+    padding-top: 0.8rem;
+    font-size: xxx-small;
+    font-weight: 500;
+}
+h4{
+    text-decoration:underline;
+    font-size: x-small;
+    font-weight: 900;
+}
+button:hover
+{
+    height: 58px;
+    width: 148px;
+}
+.Google-logo
+{
+    padding-top:0.5rem;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .Forms{
+        margin-left: 5rem;
+    }
+}

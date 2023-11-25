@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$bg-page-color : #FFFFFF;
+$main-text-color : #1E1E1E;
+$main-border-input-color: #575A5E;
+$main-button-color:#575A5E;
+$input-text-color: #575A5E;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:$bg-page-color;
+    display: flex;
+    flex-direction: column;
+}
+#snackBar
+{
+    display: none;
+    min-width: 350px;
+    background-color: #333;
+    color: #fff;
+    text-align : center;
+    border-radius: 4px;
+    padding: 16px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index:1;
+}
