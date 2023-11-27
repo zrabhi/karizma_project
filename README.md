@@ -4,8 +4,8 @@ to ran this application :
 
 - create 'server/.env' file :
 
-GOOGLE_CLIENT_ID="346819210034-5dd0405gask4gdger6lu89dj3fagfidj.apps.googleusercontent.com "
-GOOGLE_SECRECT_ID=" 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"
+GOOGLE_CLIENT_ID="346819210034-5dd0405gask4gdger6lu89dj3fagfidj.apps.googleusercontent.com"
+GOOGLE_SECRECT_ID="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"
 
 
 POSTGRES_USER="testAdmin"
