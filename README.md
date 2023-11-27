@@ -24,11 +24,13 @@ PORT=8080
 1. run database : `docker compose up --build`
 2. Backend :`cd server `
 
+   - node_modules : npm install
    - migarate prisma : `npx pris ma migrate dev -n init --schema=./src/database/schema.prisma`
    - run main app : `npm run start:dev`
 
 3. Frontend : `cd client `
 
+   - node_modules : npm install
    - run main app : `npm run dev `
    - 
    Go to `http://localhost:3000/signUp `
