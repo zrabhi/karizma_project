@@ -4,9 +4,6 @@ to ran this application :
 
 - create 'server/.env' file :
 
-
-# database :
-
 GOOGLE_CLIENT_ID="346819210034-5dd0405gask4gdger6lu89dj3fagfidj.apps.googleusercontent.com "
 GOOGLE_SECRECT_ID=" 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"
 
@@ -16,7 +13,7 @@ POSTGRES_DB="testAdmin"
 POSTGRES_PASSWORD="Admin"
 DATABASE_URL="postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@localhost:5432/${POSTGRES_DB}"
 
-#  backend :
+
 
 PORT=8080
 
