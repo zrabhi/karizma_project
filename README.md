@@ -19,12 +19,12 @@ PORT=8080
 
 
 1. run database : `docker compose up --build`
-2. Backend :`cd backend `
+2. Backend :`cd server `
 
    - migarate prisma : `npx pris ma migrate dev -n init --schema=./src/database/schema.prisma`
    - run main app : `npm run start:dev`
 
-3. Frontend : `cd frontend `
+3. Frontend : `cd client `
 
    - run main app : `npm run dev `
    - 
